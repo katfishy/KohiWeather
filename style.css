@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Sour Gummy', sans-serif;
   box-sizing: border-box;
 }
 
@@ -43,8 +43,8 @@ body {
   text-align: left;
   color: #da617b;
   padding-left: 20px;
-  font-size: 16px;
-  font-family: Pixelify Sans;
+  font-size: 20px;
+  font-family: 'Pixelify Sans';
 }
 
 .top-btn {
@@ -84,11 +84,32 @@ body {
   width: 60px;
   height: 60px;
   cursor: pointer;
-  margin-right: 10px;
+  margin-right: 15px;
+  background-color: #da617b;
   border: 4px solid #da617b;
 }
 
 .search button img {
   width: 30px;
   height: 30px;
+}
+
+.weather img {
+  margin-top: 20px;
+  width: 150px;
+  height: auto;
+}
+
+.temp {
+  color: #da617b;
+  margin-top: 20px;
+  font-size: 60px;
+}
+
+.city {
+  color: #da617b;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: normal;
 }
